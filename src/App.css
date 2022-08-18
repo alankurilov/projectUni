@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.link{
+  text-decoration: none;
+}
+.image{
+  width: 80px;
+  height: 80px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.search {
+  width: 100%;
+  display: inline-flex;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  order: -1;
+}
+
+.search-field {
+  width: 300px;
+  border: 0; 
+}
+
+.search-field:focus {
+  outline: none;
+}
+.category-tile{
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 23px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  background-color:aquamarine
+}
+.sideMenu{
+  position: absolute;
+  z-index: 100;
+  top: 0px;
+  width: 70%;
+  background-color: white;
+  height: 100%;
+  left: -70%;
+}
+.showMenu{
+  animation: moveMenu 0.2s forwards;
+}
+@keyframes moveMenu {
+  0%{left: -70%}
+  100%{left: 0;}
+
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.card-img{
+  filter:  brightness(30%);
+}
+.height{
+  height: 190px;
+}
+.logoText{
+  padding: 15px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    top: 100px !important;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.sidebar{
+  display: none;
+}
+@media only screen and (min-width: 600px) {
+  .middleSection{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    top: 300px !important;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+  .height{
+    height: 400px;
+  }
+  .sidebar{
+    width: 25%;
+    position: fixed;
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 0 30px;
+    display: block !important;
+  }
+}
+li{
+  list-style-type: none;
+
+}
+a{
+  color: white;
+  outline: none;
+  
+}
+.round {
+  border-radius: 100px; /* Радиус скругления */
+  box-shadow: 0 0 0 3px g
+ }
+ 
