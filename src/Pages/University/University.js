@@ -1,6 +1,6 @@
 import img from './Seal_of_the_University_of_Bologna.png';
 import { useParams } from "react-router-dom";
-import data from '/home/alankurilov/Документы/front/portfolio/project/src/data.js';
+import data from '../../data.js';
 import Carousel from 'react-bootstrap/Carousel';
 import CarEx from './Carousel';
 

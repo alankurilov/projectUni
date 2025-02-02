@@ -9,7 +9,7 @@ import University from './Pages/University/University';
 import Form from './Pages/Form/Form';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import {BrowserRouter, Routes, Route} from  'react-router-dom'
-import data from '/home/alankurilov/Документы/front/portfolio/project/src/data'
+import data from './data.js'
 function App() {
   return (
      <BrowserRouter>

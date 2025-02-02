@@ -1,5 +1,5 @@
 
-import '/home/alankurilov/Документы/front/portfolio/project/src/App.css';
+import '../../App.css';
 
 function MakeCard({Uni}){
     

@@ -1,8 +1,8 @@
 
 import img from './Seal_of_the_University_of_Bologna.png';
 import MakeCard from './MakeCard';
-import "/home/alankurilov/Документы/front/portfolio/project/src/App.css"
-import data from '/home/alankurilov/Документы/front/portfolio/project/src/data.js';
+import "../../App.css"
+import data from '../../data.js';
 function Universities(){
     console.log(data)
     return(
